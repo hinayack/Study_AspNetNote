@@ -14,7 +14,7 @@ namespace AspNetNote.MVC6.DataContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost; Database=AspnetNoteDb;User Id=sjlee;Password=dltkdwo#;");
+            optionsBuilder.UseSqlServer(@"Server=localhost; Database=AspnetNoteDb;User Id=sa;Password=dltkdwo#;");
         }
     }
 }
